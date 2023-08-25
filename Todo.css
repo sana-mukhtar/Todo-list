@@ -1,0 +1,168 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz@10..48&family=Lato:wght@300&family=Mukta&family=Poppins:ital,wght@0,400;0,700;1,300&family=Satisfy&display=swap');
+
+*{
+    margin: 0px 0px 0px 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Mukta', sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #2f363e;
+    overflow-x: hidden;
+}
+
+
+.container{
+    padding: 10px 12px;
+    position: relative;
+    width: 380px;
+    height: 550px;
+    border-radius: 30px;
+    background-color: #2f363e;
+    box-shadow: 25px 25px 75px rgba(0, 0, 0, 0.25) ,
+    10px 10px 70px rgba(0, 0, 0, 0.25) ,
+    inset 5px 5px 10px rgba(255, 255,255 ,  0.2) ,
+    inset -5px -5px 15px rgba(0, 0, 0, 0.75) ;
+
+    overflow-x: hidden;
+    
+}
+
+h2{
+    width: 100%;
+    font-weight: bolder;
+    text-align: center;
+    color: #ffff;
+    font-size: 1.75em;
+}
+
+.container i{
+    color: #fff;
+    height: 5%;
+    width: 15%;
+}
+
+.inp_and_btn{
+    padding: 0px 10px 0px 0px;
+}
+
+.inpbox{
+    margin-left:9px ;
+    padding: 5px;
+    position: relative;
+    width: 80%;
+    height: 6%;
+    border-radius: 12px;
+    border: rgb(143, 142, 142) ;
+    box-shadow: 2px 2px 20px rgb(45, 41, 41) , 
+    2px 2px 30px rgb(59, 61, 59)  , 
+    inset 2px 2px 5px rgb(235, 238, 235) , 
+    inset -2px -2px 5px rgb(19, 22, 19) ;
+}     
+.addbtn{
+    margin: 0;
+    padding: 5px;
+    border-radius: 12px ;
+    position: relative;
+    width: 15%;
+    height: 6%;
+    border: none;
+    background-color: #13d73b;
+    box-shadow: 2px 2px 1cqmax rgb(21, 45, 29) , 
+    2px 2px 30px rgb(38, 64, 38)  , 
+    inset 2px 2px 5px rgb(206, 208, 206) , 
+    inset -2px -2px 5px rgb(6, 20, 6) ;
+    cursor: pointer;
+}
+
+.text{
+    overflow-x: hidden;
+}
+
+.text ul{
+    position: relative;
+    text-align: left;
+    width: 96%;
+    height: 8.5%;
+    padding: 5px 5px 5px 2px ;
+    border-radius: 12px;
+    border: none;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #fff;
+    color: #fff;
+    background-color: #086caf;
+    box-shadow: 2px 2px 20px rgb(45, 41, 41) , 
+    2px 2px 30px rgb(59, 61, 59)  , 
+    inset 5px 5px 10px rgba(151, 159, 181, 0.2) ,
+    inset -5px -5px 15px rgba(0, 0, 0, 0.75) ;
+    margin: 10px; 
+    padding: 5px;
+    overflow-x: hidden;
+
+}
+
+
+.text ul li {
+    position: relative;
+}
+
+.checkie{
+    position: absolute;
+    right: 55px;
+    cursor: pointer;
+    height: 18px;
+ width: 30px;
+
+}
+
+
+#check:checked{
+    accent-color : #04c414bb;
+    text-decoration: line-through;
+
+}
+
+
+.fa-trash{
+    position: absolute;
+    right: -20.5px;
+    cursor: pointer;
+    color: red;
+
+       
+    }
+
+.text{
+    position: relative;
+    margin-top: 20px;
+    height: 80%;
+    padding-right: 10px;
+    overflow-y: auto;
+
+}
+
+.todobtn{
+    position: relative;
+    border-radius: 12px;
+    background-color: #fff;
+    color: rgb(251, 249, 249);
+}
+
+::-webkit-scrollbar{
+    width: 7.5px;
+}
+
+::-webkit-scrollbar-thumb{
+    border-radius: 5px;
+    background:linear-gradient(transparent , rgb(25, 91, 165));
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background:linear-gradient(transparent , rgb(43, 190, 243));
+}
